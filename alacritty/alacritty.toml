@@ -1,0 +1,26 @@
+[general]
+import = ["~/.config/alacritty/themes/tomorrow_night_bright.toml"]
+#import = ["~/.config/alacritty/themes/dark_pride.toml"]
+#import = ["~/.config/alacritty/themes/alabaster_dark.toml"]
+#import = ["~/.config/alacritty/themes/miasma.toml" ]  
+#import = ["~/.config/alacritty/themes/rose_pine_moon.toml" ]
+#import = ["~/.config/alacritty/themes/solarized_dark.toml"]
+#import = ["~/.config/alacritty/themes/github_dark_high_contrast.toml"]
+#import = ["~/.config/alacritty/themes/ayu_dark.toml"]
+
+[window]
+padding.x = 10
+padding.y = 8
+#decorations = "none"
+opacity = 0.97
+blur = true
+
+[font]
+normal = {family = "JetBrainsMono Nerd Font", style = "regular"}
+bold = {family = "JetBrainsMono Nerd Font", style = "Bold"}
+italic = {family = "JetBrainsMono Nerd Font", style = "Italic"}
+size = 15
+
+[cursor]
+style.shape = "Block"
+style.blinking = "on"
